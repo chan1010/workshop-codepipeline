@@ -8,7 +8,7 @@ pre: " <b> 2.2 </b> "
 
 ### Create VPC
 
-1. Go to [giao diện quản trị dịch vụ VPC](https://console.aws.amazon.com/vpc/home)
+1. Go to [VPC service management console](https://console.aws.amazon.com/vpc/home)
 
 - Click **Your VPC**.
 - Click **Create VPC**.
@@ -25,7 +25,7 @@ pre: " <b> 2.2 </b> "
 
 ### Create Subnet
 
-1. Go to [giao diện quản trị dịch vụ VPC](https://console.aws.amazon.com/vpc/home)
+1. Go to [VPC service management console](https://console.aws.amazon.com/vpc/home)
 
 - Click **Subnets**.
 - Click **Create Subnet**.
@@ -38,13 +38,13 @@ pre: " <b> 2.2 </b> "
 
 3. At the **Subnet setting** page.
 - In the **Subnet name** enter **Public Subnet**.
-- In the **Availability Zone** Click Availability zone đầu tiên.
+- In the **Availability Zone** Click on the first Availability zone.
 - In the **IPv4 CIRD block** enter **10.10.1.0/24**.
 - Click **Create Subnet**.
 
 ![VPC](/images/2.prerequisite/003-createsubnet.png)
 
-4. Click Click **Public Subnet**.
+4. Click choose subnet have name **Public Subnet**.
 - Click **Actions**.
 - Click **Edit subnet settings**.
 
@@ -74,14 +74,14 @@ pre: " <b> 2.2 </b> "
 ![VPC](/images/2.prerequisite/002-createigw.png)
 
 
-3. After Create success.
+3. After creating **Create internet gateway** successfully.
 
 - Click **Actions**.
 - Click **Attach to VPC**.
 
 ![VPC](/images/2.prerequisite/003-createigw.png)
 
-4. At the **Attach to VPC**
+4. At the **Attach to VPC** page
 
 - In the **Available VPCs** Click **VPC_CodePipeline**.
 - Click **Attach internet gateway**.
@@ -90,14 +90,14 @@ pre: " <b> 2.2 </b> "
 
 ### Create Router Table
 
-1. Go to [service management console](https://console.aws.amazon.com/vpc/home)
+1. Go to [VPC service management console](https://console.aws.amazon.com/vpc/home)
 
 - Click **Router Tables**.
 - Click **Create router table**.
 
 ![VPC](/images/2.prerequisite/001-creatertb.png)
 
-2. At the **Create router table**.
+2. At the **Create router table** page.
 
 - In the **Name** enter **Lab Publicrtb**.
 - In the VPC, Click **VPC_CodePipeline**.
@@ -106,7 +106,7 @@ pre: " <b> 2.2 </b> "
 ![VPC](/images/2.prerequisite/002-creatertb.png)
 
 
-3. After create **router table** success.
+3. After creating **router table** successfully.
 
 - Click **Actions**.
 - Click **Edit routes**.
@@ -130,7 +130,7 @@ pre: " <b> 2.2 </b> "
 
 6. At the **Edit subnet associations** page.
 
-- Click Click **Subnet Public**.
+- Click **Subnet Public**.
 - Click **Save associations**.
 
 ![VPC](/images/2.prerequisite/006-creatertb.png)

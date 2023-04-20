@@ -93,7 +93,7 @@ Chúng ta sẽ tiến hành các bước sau để xóa các tài nguyên chúng
 #### Xóa VPC
 1. Truy cập vào [giao diện quản trị dịch vụ VPC](https://console.aws.amazon.com/vpc/home)
 - Chọn **Your VPCs**.
-- Chọn chọn **VPC_CodePipeline**.
+- Chọn **VPC_CodePipeline**.
 - Chọn **Actions**.
 - Chọn **Delete VPC**.
 ![CLEAR](/images/4.clean/010-clean.png)

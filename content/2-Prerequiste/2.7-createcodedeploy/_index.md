@@ -66,25 +66,23 @@ sudo service codedeploy-agent start
 - Click **Create application**
 ![CODEDEPLOY](/images/2.prerequisite/002-createcodedeploy.png)
 
-5. After successfully creating CodeDeploy.
+5. After creating CodeDeploy successfully .
 - Click **Create deployment group**
 
 ![CODEDEPLOY](/images/2.prerequisite/003-createcodedeploy.png)
 
 6. At the **Create deployment group** page
 - In the **Deployment group name** enter **codedeploy-group**
--In the **Service role** Click **CodeDeploy-Role**
+- In the **Service role** Click **CodeDeploy-Role**
 
 ![CODEDEPLOY](/images/2.prerequisite/004-createcodedeploy.png)
 
-7. 
 - In the **Deployment type** Click **In-place**
 - In the **Environment configuration** Click **Amazon EC2 instances**
 - In the **Tag group 1** Click **key** is **Name**, **value** is **Linux Instance**
 
 ![CODEDEPLOY](/images/2.prerequisite/005-createcodedeploy.png)
 
-8. 
 - In the **Install AWS CodeDeploy Agent** Click **Never**
 - In the **Load balancer** bỏ Click **Enable load balancing**
 - Click **Create deployment group**

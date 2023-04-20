@@ -15,7 +15,7 @@ pre: " <b> 2.3 </b> "
 
 ![EC2](/images/2.prerequisite/001-createec2.png)
 
-2. Name and tags của instance, nhập **Linux Instance**
+2. Tại mục **Name and tags** của instance, nhập **Linux Instance**
 
 ![EC2](/images/2.prerequisite/002-createec2.png)
 
@@ -35,7 +35,7 @@ pre: " <b> 2.3 </b> "
 
 ![EC2](/images/2.prerequisite/001-createkeypair.png)
 
-6. Trong giao diện Cretae key pair.
+6. Trong giao diện **Create key pair.**
 
 - Key pair name, nhập **lab-codepipeline**.
 - Key pair type, **chọn RSA**
@@ -47,8 +47,8 @@ pre: " <b> 2.3 </b> "
 - Subnet, chọn **Public Subnet**
 - Auto-assign public IP, chọn **Enable**
 - Firewall (Security Group), chọn **Select existing security group**
-- Chọn VPC_CodePipeline_SG
-- Chọn Launch instance
+- Chọn **VPC_CodePipeline_SG**
+- Chọn **Launch instance**
 
 ![EC2](/images/2.prerequisite/005-createec2.png)
 

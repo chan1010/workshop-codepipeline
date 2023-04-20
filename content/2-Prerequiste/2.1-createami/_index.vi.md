@@ -104,7 +104,7 @@ pre : " <b>2.1 </b> "
 
 ![IAM](/images/2.prerequisite/005-createiam.png)
 
-#### Tạo role codedeploy cho EC2
+#### Tạo role CodeDeploy cho EC2
 1. Truy cập [giao diện quản trị dịch vụ IAM](https://us-east-1.console.aws.amazon.com/iamv2/home)
 
 - Chọn **Role**.
@@ -120,7 +120,8 @@ pre : " <b>2.1 </b> "
 
 - Chọn **AmazonS3FullAccess, AWSCodeDeployFullAccess**.
 - Chọn **Next**.
-4. Mục **Name, review and create**.
+
+4. Tại mục **Name, review and create**.
 
 - Tại mục **Role name** nhập **CodeDeploy_Role_EC2**.
 - Kiêm tra **Add permissions**

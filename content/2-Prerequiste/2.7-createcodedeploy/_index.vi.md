@@ -79,14 +79,12 @@ sudo service codedeploy-agent start
 
 ![CODEDEPLOY](/images/2.prerequisite/004-createcodedeploy.png)
 
-7. 
 - **Deployment type** chọn **In-place**
 - **Environment configuration** chọn **Amazon EC2 instances**
 - **Tag group 1** chọn **key** là **Name**, **value** là **Linux Instance**
 
 ![CODEDEPLOY](/images/2.prerequisite/005-createcodedeploy.png)
 
-8. 
 - **Install AWS CodeDeploy Agent** chọn **Never**
 - **Load balancer** bỏ chọn **Enable load balancing**
 - Chọn **Create deployment group**

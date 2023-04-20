@@ -14,7 +14,7 @@ We will proceed with the following steps to delete the resources we have created
 - Click **Instances**.
 - Click instance **Linux Instance**.
 - Click **Instance state**.
-- Click **Terminate instance**, after then Click **Terminate** Confirm.
+- Click **Terminate instance**, after then Click **Terminate** confirm.
 
 ![CLEAR](/images/4.clean/001-clean.png)
 
@@ -26,7 +26,7 @@ We will proceed with the following steps to delete the resources we have created
 
 ![CLEAR](/images/4.clean/002-clean.png)
 
-2. Tại ô confirm, enter **delete** Confirm, Click **Delete** to perform delete.
+2. At the input confirm, enter **delete**, Click **Delete** to perform delete.
 
 #### CodeDeploy
 1. Go to [CodeDeploy service management console](https://ap-southeast-1.console.aws.amazon.com/codesuite/codedeploy/applications)
@@ -36,7 +36,7 @@ We will proceed with the following steps to delete the resources we have created
 
 ![CLEAR](/images/4.clean/003-clean.png)
 
-2. Tại ô confirm, enter **delete** Confirm, Click **Delete** to perform delete.
+2. At the input confirm, enter **delete**, Click **Delete** to perform delete.
 #### CodeBuild
 1. Go to [CodeBuild service management console](https://ap-southeast-1.console.aws.amazon.com/codesuite/codebuild/start)
 - Click **Build projects**
@@ -45,7 +45,7 @@ We will proceed with the following steps to delete the resources we have created
 
 ![CLEAR](/images/4.clean/004-clean.png)
 
-2. Tại ô confirm, enter **delete** Confirm, Click **Delete** to perform delete.
+2. At the input confirm, enter **delete**, Click **Delete** to perform delete.
 
 #### CodeCommit
 1. Go to [CodeCommit service management console](https://ap-southeast-1.console.aws.amazon.com/codesuite/codecommit/repositories)
@@ -55,7 +55,7 @@ We will proceed with the following steps to delete the resources we have created
 
 ![CLEAR](/images/4.clean/005-clean.png)
 
-2. Tại ô confirm, enter **delete** Confirm, Click **Delete** to perform delete.
+2. At the input confirm, enter **delete**, Click **Delete** to perform delete.
 
 #### S3
 1. Go to [S3 service management console](https://s3.console.aws.amazon.com/s3/buckets)
@@ -65,7 +65,7 @@ We will proceed with the following steps to delete the resources we have created
 
 ![CLEAR](/images/4.clean/006-clean.png)
 
-2. Tại ô confirm, enter name **bucket** Confirm, Click **Delete bucket** to perform delete.
+2. At the input confirm, enter name **bucket**, Click **Delete bucket** to perform delete.
 
 #### IAM
 
@@ -93,9 +93,9 @@ We will proceed with the following steps to delete the resources we have created
 #### Xóa VPC
 1. Go to vào [VPC service management console](https://console.aws.amazon.com/vpc/home)
 - Click **Your VPCs**.
-- Click Click **VPC_CodePipeline**.
+- Click **VPC_CodePipeline**.
 - Click **Actions**.
 - Click **Delete VPC**.
 ![CLEAR](/images/4.clean/010-clean.png)
-2. Tại ô confirm, enter **delete** Confirm, Click **Delete** to perform delete **VPC_CodePipeline** and related resources.
+2. At the input confirm, enter **delete**, Click **Delete** to perform delete **VPC_CodePipeline** and related resources.
 

@@ -32,13 +32,13 @@ git push origin master
 ```
 ![TEST](/images/3.createpipeline/009-createpipeline.png)
 
-2. Go to [giao diện quản trị dịch vụ Codecommit](https://ap-southeast-1.console.aws.amazon.com/codesuite/codecommit/repositories)
+2. Go to [CodeCommit service management console](https://ap-southeast-1.console.aws.amazon.com/codesuite/codecommit/repositories)
 - Click **Repositories** **app_lab**
 - Click **Commits**
 
 ![TEST](/images/3.createpipeline/010-createpipeline.png)
 
-3. Go to [giao diện quản trị dịch vụ CodePipeline](https://ap-southeast-1.console.aws.amazon.com/codesuite/codepipeline/pipelines)
+3. Go to [CodePipeline service management console](https://ap-southeast-1.console.aws.amazon.com/codesuite/codepipeline/pipelines)
 
 - Click **pipeline** **app_lab_pipeline**
 - Click **History**

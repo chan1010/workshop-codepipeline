@@ -17,8 +17,8 @@ pre: " <b> 2.2 </b> "
 
 2. Tại trang **Create VPC**.
 
-- Tại mục **Name tag** điền **VPC_CodePileline**.
-- Tại mục **IPv4 CIDR** điền : **10.10.0.0/16**.
+- Tại mục **Name tag** nhập **VPC_CodePileline**.
+- Tại mục **IPv4 CIDR** nhập : **10.10.0.0/16**.
 - Chọn **Create VPC**.
 
 ![VPC](/images/2.prerequisite/002-createvpccodepipeline.png)
@@ -37,9 +37,9 @@ pre: " <b> 2.2 </b> "
 ![VPC](/images/2.prerequisite/002-createsubnet.png)
 
 3. Tại **Subnet setting**.
-- Tại mục **Subnet name** điền **Public Subnet**.
+- Tại mục **Subnet name** nhập **Public Subnet**.
 - Tại mục **Availability Zone** chọn Availability zone đầu tiên.
-- Tại mục **IPv4 CIRD block** điền **10.10.1.0/24**.
+- Tại mục **IPv4 CIRD block** nhập **10.10.1.0/24**.
 - Chọn **Create Subnet**.
 
 ![VPC](/images/2.prerequisite/003-createsubnet.png)
@@ -68,7 +68,7 @@ pre: " <b> 2.2 </b> "
 
 2. Tại trang **Create internet gateway**.
 
-- Tại mục **Name tag** điền **Lab-IGW**.
+- Tại mục **Name tag** nhập **Lab-IGW**.
 - Chọn **Create internet gateway**.
 
 ![VPC](/images/2.prerequisite/002-createigw.png)
@@ -99,7 +99,7 @@ pre: " <b> 2.2 </b> "
 
 2. Tại trang **Create router table**.
 
-- Tại mục **Name** điền **Lab Publicrtb**.
+- Tại mục **Name** nhập **Lab Publicrtb**.
 - Tại mục VPC, chọn **VPC_CodePipeline**.
 - Chọn **Create route table**.
 
@@ -116,7 +116,7 @@ pre: " <b> 2.2 </b> "
 4. Tại trang **Edit routes**
 
 - Chọn **Add route**.
-- Tại mục **Destination** điền **0.0.0.0/0**.
+- Tại mục **Destination** nhập **0.0.0.0/0**.
 - Tại mục **Target** chọn **Internet Gateway** sau đó chọn **Lab-IGW**.
 - Chọn **Save changes**.
 
@@ -130,7 +130,7 @@ pre: " <b> 2.2 </b> "
 
 6. Tại trang **Edit subnet associations**.
 
-- Chọn chọn **Subnet Public**.
+- Chọn **Subnet Public**.
 - Chọn **Save associations**.
 
 ![VPC](/images/2.prerequisite/006-creatertb.png)
@@ -146,8 +146,8 @@ pre: " <b> 2.2 </b> "
 
 2. Tại trang **Create security group**.
 
-- Tại mục **Security group name** điền **VPC_CodePipeline_SG**.
-- Tại mục **Description** điền : **SG Public**.
+- Tại mục **Security group name** nhập **VPC_CodePipeline_SG**.
+- Tại mục **Description** nhập : **SG Public**.
 - Tại mục **VPC** click dấu X để chọn lại **VPC_CodePileline**.
 
 ![VPC](/images/2.prerequisite/004-createsg.png)
