@@ -15,38 +15,38 @@ pre: " <b> 3.1 </b> "
 
 2. At the **Create pipeline** section
 
-- **Pipepline name** nhập **app_lab_pipeline**
-- **Service role** click **New service role**
+- In the **Pipepline name** nhập **app_lab_pipeline**
+- In the **Service role** click **New service role**
 - Click **Next**
 
 ![CODEPIPELINE](/images/3.createpipeline/002-createpipeline.png)
 
 3. At the **Add source stage** section
 
-- **Source provider** click **app_lab_pipeline**
-- **Repository name** click **app_lab**
-- **Branch name** click **master**
-- **Change detection options** click **AWS CodePipeline**
+- In the **Source provider** click **app_lab_pipeline**
+- In the **Repository name** click **app_lab**
+- In the **Branch name** click **master**
+- In the **Change detection options** click **AWS CodePipeline**
 - Click **Next**
 
 ![CODEPIPELINE](/images/3.createpipeline/003-createpipeline.png)
 
 4. At the **Add build stage** section
 
-- **Build provider** click **AWS CodeBuild**
-- **Region** click **Asia Pacific (Singapore)**
-- **Project name** click **app_lab_build**
-- **Build type** click **Single build**
+- In the **Build provider** click **AWS CodeBuild**
+- In the **Region** click **Asia Pacific (Singapore)**
+- In the **Project name** click **app_lab_build**
+- In the **Build type** click **Single build**
 - Click **Next**
 
 ![CODEPIPELINE](/images/3.createpipeline/004-createpipeline.png)
 
 5. At the **Add deploy stage** section
 
-- **Deploy provider** click **AWS CodeDeploy**
-- **Region** click **Asian Pacific (Singapore)**
-- **Application name** click **codedeploy_app_lab**
-- **Deployment group** click **codedeploy-group**
+- In the **Deploy provider** click **AWS CodeDeploy**
+- In the **Region** click **Asian Pacific (Singapore)**
+- In the **Application name** click **codedeploy_app_lab**
+- In the **Deployment group** click **codedeploy-group**
 - Click **Next**
 
 ![CODEPIPELINE](/images/3.createpipeline/005-createpipeline.png)

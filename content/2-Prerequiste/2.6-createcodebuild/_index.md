@@ -18,20 +18,20 @@ pre : " <b> 2.6 </b> "
 ![CODEBUILD](/images/2.prerequisite/002-createcodebuild.png)
 
 3. At the **Source** section
-- **Source provider** Click **AWS CodeCommit**.
-- **Repository** Click **app_lab**.
-- **Reference type** Click **Branch**.
-- **Branch** Click **master**.
+- In the **Source provider** Click **AWS CodeCommit**.
+- In the **Repository** Click **app_lab**.
+- In the **Reference type** Click **Branch**.
+- In the **Branch** Click **master**.
 
 ![CODEBUILD](/images/2.prerequisite/003-createcodebuild.png)
 
 4. At the **Environment** section
-- **Environment image** Click **Managed image**.
-- **Operating system** Click **Amazon Linux 2**.
-- **Runtime(s)** Click **Standar**.
-- **Image** Click **aws/codebuild/amazonlinux2-aarch64-standard:2.0**.
-- **Image version** Click **Always use the latest image for this runtime version**.
-- **Service role** Click **New service role**.
+- In the **Environment image** Click **Managed image**.
+- In the **Operating system** Click **Amazon Linux 2**.
+- In the **Runtime(s)** Click **Standar**.
+- In the **Image** Click **aws/codebuild/amazonlinux2-aarch64-standard:2.0**.
+- In the **Image version** Click **Always use the latest image for this runtime version**.
+- In the **Service role** Click **New service role**.
 
 ![CODEBUILD](/images/2.prerequisite/004-createcodebuild.png)
 

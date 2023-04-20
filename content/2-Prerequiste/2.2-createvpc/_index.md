@@ -36,7 +36,7 @@ pre: " <b> 2.2 </b> "
 
 ![VPC](/images/2.prerequisite/002-createsubnet.png)
 
-3. At the **Subnet setting**.
+3. At the **Subnet setting** page.
 - In the **Subnet name** enter **Public Subnet**.
 - In the **Availability Zone** Click Availability zone đầu tiên.
 - In the **IPv4 CIRD block** enter **10.10.1.0/24**.

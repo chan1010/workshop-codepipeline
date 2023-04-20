@@ -15,7 +15,7 @@ pre: " <b> 2.3 </b> "
 
 ![EC2](/images/2.prerequisite/001-createec2.png)
 
-2. In the name and tags of instance, enter **Linux Instance**
+2. In the **Name and tags** of instance, enter **Linux Instance**
 
 ![EC2](/images/2.prerequisite/002-createec2.png)
 
@@ -61,7 +61,7 @@ pre: " <b> 2.3 </b> "
 1. Go to [EC2 service management console](https://ap-southeast-1.console.aws.amazon.com/ec2/home)
 
 - Click **Instances**.
-- Click **Linux Instance**.
+- Click choose instance have name **Linux Instance**.
 - Click **Actions**
 - Click **Security**
 - Click **Modify IAM role**

@@ -14,8 +14,8 @@ pre : " <b> 2.4 </b> "
 ![S3](/images/2.prerequisite/001-creates3.png)
 
 2. At the **General configuration** section
-- **Bucket name** enter **app-lab-s3**
-- **AWS Region** enter **Asia Pacific (Singapore) ap-southeast-1**
-- Click **create Bucket**
+- In the **Bucket name** enter **app-lab-s3**
+- In the **AWS Region** click **Asia Pacific (Singapore) ap-southeast-1**
+- Sroll down and click **create Bucket**
 
 ![S3](/images/2.prerequisite/002-creates3.png)

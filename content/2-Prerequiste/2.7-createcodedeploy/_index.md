@@ -44,13 +44,11 @@ sudo service codedeploy-agent status
 ![CODEDEPLOY](/images/2.prerequisite/004-update.png)
 
 {{%notice info%}}
-Nếu đầu ra là **Tác nhân AWS CodeDeploy đang chạy dưới dạng PID 4562** hoặc bất kỳ PID nào khác. Điều đó có nghĩa là tác nhân triển khai mã đang chạy tốt.
+If the output is **AWS CodeDeploy agent running as PID 4562** or any other PID, it means that the deployment agent is running properly.
 {{%/notice%}}
 
 {{%notice warning%}}
-
-Nếu đầu ra cho biết **error: No AWS CodeDeploy agent running**, thì hãy khởi động tác nhân bằng cách chạy lệnh bên dưới và kiểm tra lại trạng thái.
-
+If the output indicates error: No AWS CodeDeploy agent running, then start the agent by running the command below and check the status again.
 {{%/notice%}}
 
 ```
@@ -68,26 +66,26 @@ sudo service codedeploy-agent start
 - Click **Create application**
 ![CODEDEPLOY](/images/2.prerequisite/002-createcodedeploy.png)
 
-5. Sau khi tạo thành công CodeDeploy
+5. After successfully creating CodeDeploy.
 - Click **Create deployment group**
 
 ![CODEDEPLOY](/images/2.prerequisite/003-createcodedeploy.png)
 
-6. Tại trang **Create deployment group**
+6. At the **Create deployment group** page
 - In the **Deployment group name** enter **codedeploy-group**
-- **Service role** Click **CodeDeploy-Role**
+-In the **Service role** Click **CodeDeploy-Role**
 
 ![CODEDEPLOY](/images/2.prerequisite/004-createcodedeploy.png)
 
 7. 
-- **Deployment type** Click **In-place**
-- **Environment configuration** Click **Amazon EC2 instances**
-- **Tag group 1** Click **key** is **Name**, **value** is **Linux Instance**
+- In the **Deployment type** Click **In-place**
+- In the **Environment configuration** Click **Amazon EC2 instances**
+- In the **Tag group 1** Click **key** is **Name**, **value** is **Linux Instance**
 
 ![CODEDEPLOY](/images/2.prerequisite/005-createcodedeploy.png)
 
 8. 
-- **Install AWS CodeDeploy Agent** Click **Never**
-- **Load balancer** bỏ Click **Enable load balancing**
+- In the **Install AWS CodeDeploy Agent** Click **Never**
+- In the **Load balancer** bỏ Click **Enable load balancing**
 - Click **Create deployment group**
 ![CODEDEPLOY](/images/2.prerequisite/006-createcodedeploy.png)
