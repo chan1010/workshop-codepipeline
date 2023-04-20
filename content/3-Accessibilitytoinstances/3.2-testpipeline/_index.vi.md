@@ -1,9 +1,9 @@
 ---
 title: "Kiểm tra hoạt động của pipeline."
 date: "`r Sys.Date()`"
-weight: 4
+weight: 2
 chapter: false
-pre: " <b> 3.4 </b> "
+pre: " <b> 3.2 </b> "
 ---
 
 ### Kiểm tra quá trình tự động CodePipeline

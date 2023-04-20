@@ -6,7 +6,7 @@ chapter : false
 pre : " <b> 2.</b> "
 ---
 
-### PREPARATION
+### Preparation
 
 In this lab, we need to prepare some services in order to deploy CI/CD with CodePipeline.
 In general, we will deploy according to the following architecture:

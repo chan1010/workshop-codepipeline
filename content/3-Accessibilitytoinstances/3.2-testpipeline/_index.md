@@ -1,9 +1,9 @@
 ---
 title: "Check the operation of pipeline."
 date: "`r Sys.Date()`"
-weight: 4
+weight: 2
 chapter: false
-pre: " <b> 3.4 </b> "
+pre: " <b> 3.2 </b> "
 ---
 
 1. Go to [EC2 service management console](https://ap-southeast-1.console.aws.amazon.com/ec2/home)
