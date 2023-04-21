@@ -74,8 +74,8 @@ git clone https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/app_lab
 
 ![CODECOMMIT](/images/2.prerequisite/001-doneclone.png)
 
-4. Go to folther **app_lab**
-- Unzip and paste the content [folther](/app_lab/app_lab.zip) in folder **app_lab**
+4. Go to folder **app_lab**
+- Unzip and paste the content [folder](/app_lab/app_lab.zip) in folder **app_lab**
 
 5. Push content repository app_lab.
 ```
